@@ -13,7 +13,6 @@ export default function Header() {
         <ul className="hidden md:flex space-x-8 text-gray-600 dark:text-gray-300">
           <li><Link href="#about" className="hover:text-blue-500">My profile</Link></li>
           <li><Link href="#projects" className="hover:text-blue-500">reserach</Link></li>
-          <li><Link href="#company" className="hover:text-blue-500">企業情報</Link></li>
         </ul>
       </nav>
     </header>
