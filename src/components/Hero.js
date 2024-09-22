@@ -8,10 +8,11 @@ export default function Hero() {
     <section className="relative h-screen flex items-center justify-center bg-gray-900">
       <Image
         src="/images/hero-background.jpg"
-        alt="背景画像"
-        fill
+        alt="中央に画像を表示"
+        width={150}
+        height={150}
         style={{ objectFit: 'cover' }}
-        className="opacity-50"
+        className="rounded-ful"
       />
       <motion.div
         className="absolute text-center text-white px-4"
