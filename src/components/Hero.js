@@ -25,13 +25,13 @@ export default function Hero() {
       
       {/* タイトル */}
       <motion.h1
-        className="text-4xl md:text-6xl font-bold mb-4 text-center"
+        className="text-4xl md:text-6xl font-bold mb-4 text-center whitespace-pre-line"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.5 }}
       >
         <Typewriter
-          words={['Tsukagoshi Toshihiro']}
+          words={['塚越 駿大\nTsukagoshi Toshihiro']}
           loop={1}
           cursor
           cursorStyle='_'
@@ -48,7 +48,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.7 }}
       >
-        クリエイティブなソリューションを提供します。最新の技術とデザインのトレンドを取り入れ、常に学び続けています。
+        音声情報処理　高齢者支援
       </motion.p>
       
       {/* プロジェクトを見るボタン */}
@@ -57,8 +57,8 @@ export default function Hero() {
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.9 }}
       >
-        <Link href="#projects" className="inline-block bg-blue-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-600 transition">
-          プロジェクトを見る
+        <Link href="#research" className="inline-block bg-blue-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-600 transition">
+          研究を見る
         </Link>
       </motion.div>
     </section>

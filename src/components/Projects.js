@@ -3,15 +3,15 @@ import Link from 'next/link';
 
 const projects = [
   {
-    title: 'プロジェクト1',
-    description: 'プロジェクト1の簡単な説明',
-    image: '/images/project1.jpg',
+    title: '食行動認識',
+    description: '産業技術総合研究所(AIST)との共同研究',
+    image: '/images/eating_exp.png',
     link: '#',
   },
   {
-    title: 'プロジェクト2',
-    description: 'プロジェクト2の簡単な説明',
-    image: '/images/project2.jpg',
+    title: '幸せな酔いの追求',
+    description: 'サッポロビールとの共同研究',
+    image: '/images/sapporo.png',
     link: '#',
   },
   // 他のプロジェクトも追加
@@ -21,7 +21,7 @@ export default function Projects() {
   return (
     <section id="research" className="py-20 bg-gray-100 dark:bg-gray-900">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold mb-12">プロジェクト</h2>
+        <h2 className="text-3xl font-bold mb-12">研究</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div key={index} className="relative overflow-hidden rounded-lg shadow-lg">
