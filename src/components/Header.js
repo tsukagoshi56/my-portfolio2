@@ -15,12 +15,6 @@ export default function Header() {
           <li><Link href="#projects" className="hover:text-blue-500">reserach</Link></li>
           <li><Link href="#company" className="hover:text-blue-500">企業情報</Link></li>
         </ul>
-        {/* お問い合わせボタン */}
-        <div>
-          <Link href="#contact" className="bg-blue-500 text-white px-4 py-2 rounded-lg shadow-md hover:bg-blue-600 transition">
-            お問い合わせ
-          </Link>
-        </div>
       </nav>
     </header>
   );
