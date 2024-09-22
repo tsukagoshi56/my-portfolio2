@@ -1,12 +1,14 @@
 // src/components/Skills.js
-import { FaReact, FaNodeJs, FaDatabase } from 'react-icons/fa';
+import { FaNodeJs } from 'react-icons/fa';
+import { SiNextdotjs, SiPython, SiPytorch, SiJava, SiCplusplus } from 'react-icons/si';
+// カスタム画像を使用する場合は Image をインポート
+import Image from 'next/image';
 
 export default function Skills() {
   const skills = [
-    { icon: <FaReact size={40} color="#61DBFB" />, name: 'React' },
-    { icon: <FaNodeJs size={40} color="#68A063" />, name: 'Node.js' },
-    { icon: <FaDatabase size={40} color="#f29111" />, name: 'データベース' },
-    // 他のスキルも追加
+    { icon: <SiNextdotjs size={40} color="#000000" />, name: 'Next.js' },
+    { icon: <SiPython size={40} color="#306998" />, name: 'Python' },
+    { icon: <SiPytorch size={40} color="#EE4C2C" />, name: 'PyTorch' },
   ];
 
   return (
