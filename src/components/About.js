@@ -6,12 +6,7 @@ export default function About() {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 text-center">私について</h2>
         <div className="text-gray-700 dark:text-gray-300 max-w-4xl mx-auto space-y-8">
-          {/* 自己紹介 */}
-          <section>
-            <p>
-              はじめまして。塚越駿大と申します。現在、大学院で音声・音響信号処理を専攻している修士1年です。音声認識技術の革新や新たなマルチタスク認識モデルの構築を通して、研究成果の実社会への応用を目指しています。
-            </p>
-          </section>
+
 
           {/* 学部研究 */}
           <section>
@@ -26,7 +21,7 @@ export default function About() {
               <strong>指導教官:</strong> 西田昌史
             </p>
             <p>
-              <strong>研究内容:</strong> 雑音環境下での音声認識性能向上を目指し、外部雑音に頑健な皮膚接触型マイクの活用の検討を行いました。このマイクは一般的なマイクとの音響特性の違いから、従来の音声認識モデルに入力することが困難でした。そこで、皮膚接触型マイクの音声特徴を一般的なマイク特徴へ変換するモデルを構築することで、雑音に頑健なシステムを実現しました。学会発表での質疑応答を通じ、技術的価値を効果的に伝える力の重要性を実感しました。
+              <strong>研究内容:</strong> 雑音環境下での音声認識性能向上を目指し、外部雑音に頑健な皮膚接触型マイクの活用の検討を行いました。このマイクは一般的なマイクとの音響特性の違いから、従来の音声認識モデルに入力することが困難でした。そこで、皮膚接触型マイクの音声特徴を一般的なマイク特徴へ変換するモデルを構築することで、雑音に頑健なシステムを実現しました。
             </p>
           </section>
 
@@ -43,7 +38,7 @@ export default function About() {
               <strong>指導教官:</strong> 西田昌史
             </p>
             <p>
-              <strong>研究内容:</strong> 日常生活における食事と会話の自動認識モデルの研究開発に取り組みました。うつ病や嚥下障害の早期発見への応用を目指し、食行動認識という未開拓な分野に挑戦。先行研究が限られる中、音声認識など関連分野の知見を幅広く取り入れ、小規模な検証を素早く繰り返すアプローチで効率的に研究を進めました。限られた計算リソースの中で、仮説検証から改善までのサイクルを何度も回すことで最適解を追求する重要性を学びました。
+              <strong>研究内容:</strong> 日常生活における食事と会話の自動認識モデルの研究開発に取り組みました。
             </p>
           </section>
 
@@ -58,6 +53,17 @@ export default function About() {
                 情報処理学会：学生奨励賞 (2024年3月)
                 <br />
                 「FreeVCを用いた声質変換に基づく咽喉マイク音声認識」 – 塚越駿大, 西田昌史, 西村雅史 (ポスター番号: 2B-7)
+
+                詳細は&nbsp;
+                <a
+                  href="https://ipsj.ixsq.nii.ac.jp/records/236021"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline"
+                >
+                  こちら
+                </a>
+                をご覧ください。
               </li>
               <li>
                 第6回応用物理学会東海支部学術講演会：発表審査員特別賞 (2018年11月)
@@ -177,21 +183,25 @@ export default function About() {
           {/* インターンシップ */}
           <section>
             <h3 className="text-2xl font-semibold mb-2">インターンシップ</h3>
-            <p>
-              ・学校法人角川ドワンゴ学園 N/S 高等学校 通学コースにおいて、キャンパス運営、授業サポート、コーチングの実習を経験。
-            </p>
-            <p>
-              ・日立製作所 中央研究所でのインターンシップ経験あり。
-            </p>
+            <ul className="list-disc list-inside ml-4 space-y-4">
+              <li>
+                <strong>学校法人角川ドワンゴ学園 N/S 高等学校 通学コース</strong>
+                <br />
+                キャンパス運営、授業サポート、コーチングの実習
+                <br />
+                <span className="text-sm text-gray-500">2023年3月 ～ 2024年7月</span>
+              </li>
+              <li>
+                <strong>日立製作所</strong>
+                <br />
+                インターンシップ実習
+                <br />
+                <span className="text-sm text-gray-500">2025年1月</span>
+              </li>
+            </ul>
           </section>
 
-          {/* 目標 */}
-          <section>
-            <h3 className="text-2xl font-semibold mb-2">目標</h3>
-            <p>
-              音声・音響技術を通じて人々の生活の質向上に貢献し、研究成果を実社会へ応用するための新たな挑戦や協力の機会を積極的に追求していきます。
-            </p>
-          </section>
+
         </div>
       </div>
     </section>
