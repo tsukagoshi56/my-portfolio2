@@ -50,7 +50,9 @@ export default function About() {
           {/* 実績 */}
           <section>
             <h3 className="text-2xl font-semibold mb-2">実績</h3>
-            <p className="mb-2"><strong>国内会議発表:</strong></p>
+            <p className="mb-2">
+              <strong>国内会議発表:</strong>
+            </p>
             <ul className="list-disc list-inside ml-4 mb-4">
               <li>
                 情報処理学会：学生奨励賞 (2024年3月)
@@ -74,14 +76,16 @@ export default function About() {
                 をご覧ください。
               </li>
             </ul>
-            <p className="mb-2"><strong>国際会議発表 (査読あり):</strong></p>
+            <p className="mb-2">
+              <strong>国際会議発表 (査読あり):</strong>
+            </p>
             <ul className="list-disc list-inside ml-4">
               <li>
                 IEEE 13th Global Conference on Consumer Electronics (GCCE 2024)
                 <br />
                 Excellent Poster Awards – Outstanding Prize 受賞
                 <br />
-                採択論文: "Simultaneous Speech and Eating Behavior Recognition Using Multitask Learning"
+                採択論文: &quot;Simultaneous Speech and Eating Behavior Recognition Using Multitask Learning&quot;
                 <br />
                 詳細は&nbsp;
                 <a
@@ -97,7 +101,7 @@ export default function About() {
               <li>
                 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC 2024)
                 <br />
-                採択論文: "SSL-based Chewing and Swallowing Detection Using Multiple Skin-contact Microphones"
+                採択論文: &quot;SSL-based Chewing and Swallowing Detection Using Multiple Skin-contact Microphones&quot;
                 <br />
                 詳細は&nbsp;
                 <a
