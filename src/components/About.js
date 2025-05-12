@@ -7,24 +7,6 @@ export default function About() {
         <h2 className="text-3xl font-bold mb-8 text-center">私について</h2>
         <div className="text-gray-700 dark:text-gray-300 max-w-4xl mx-auto space-y-8">
 
-
-          {/* 学部研究 */}
-          <section>
-            <h3 className="text-2xl font-semibold mb-2">学部研究</h3>
-            <p>
-              <strong>研究テーマ:</strong> 皮膚接触型マイクを活用した雑音環境に頑健な音声認識モデルの構築
-            </p>
-            <p>
-              <strong>研究室:</strong> 西田研究室
-            </p>
-            <p>
-              <strong>指導教官:</strong> 西田昌史
-            </p>
-            <p>
-              <strong>研究内容:</strong> 雑音環境下での音声認識性能向上を目指し、外部雑音に頑健な皮膚接触型マイクの活用の検討を行いました。このマイクは一般的なマイクとの音響特性の違いから、従来の音声認識モデルに入力することが困難でした。そこで、皮膚接触型マイクの音声特徴を一般的なマイク特徴へ変換するモデルを構築することで、雑音に頑健なシステムを実現しました。
-            </p>
-          </section>
-
           {/* 修士研究 */}
           <section>
             <h3 className="text-2xl font-semibold mb-2">修士研究</h3>
@@ -42,142 +24,64 @@ export default function About() {
             </p>
           </section>
 
-          {/* 実績 */}
+          {/* 学部研究 */}
           <section>
-            <h3 className="text-2xl font-semibold mb-2">実績</h3>
-            <p className="mb-2">
-              <strong>国内会議発表:</strong>
+            <h3 className="text-2xl font-semibold mb-2">学部研究</h3>
+            <p>
+              <strong>研究テーマ:</strong> 皮膚接触型マイクを活用した雑音環境に頑健な音声認識モデルの構築
             </p>
-            <ul className="list-disc list-inside ml-4 mb-4">
-              <li>
-                情報処理学会：学生奨励賞 (2024年3月)
-                <br />
-                「FreeVCを用いた声質変換に基づく咽喉マイク音声認識」 – 塚越駿大, 西田昌史, 西村雅史 (ポスター番号: 2B-7)
+            <p>
+              <strong>研究室:</strong> 西田研究室
+            </p>
+            <p>
+              <strong>指導教官:</strong> 西田昌史
+            </p>
+            <p>
+              <strong>研究内容:</strong> 雑音環境下での音声認識性能向上を目指し、皮膚接触型マイクの音響特徴を一般的なマイク特徴へ変換するモデルを構築しました。
+            </p>
+          </section>
 
-                詳細は&nbsp;
-                <a
-                  href="https://ipsj.ixsq.nii.ac.jp/records/236021"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline"
-                >
-                  こちら
-                </a>
-                をご覧ください。
+          {/* 受賞歴 */}
+          <section>
+            <h3 className="text-2xl font-semibold mb-2">受賞歴</h3>
+            <ul className="list-disc list-inside ml-4 space-y-2">
+              <li>
+                <strong>情報処理学会第87回全国大会 学生奨励賞</strong> (2025年3月) - “飲酒が発話行動に与える影響の分析と評価”
               </li>
               <li>
-                第6回応用物理学会東海支部学術講演会：発表審査員特別賞 (2018年11月)
-                <br />
-                “コイルが作る磁場の広がり方についての考察” – 近藤壮馬, 塚越駿大
-                <br />
-                詳細は&nbsp;
-                <a
-                  href="https://tokai.jsap.or.jp/encouragement.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline"
-                >
-                  こちら
-                </a>
-                をご覧ください。
-              </li>
-            </ul>
-            <p className="mb-2">
-              <strong>国際会議発表 (査読あり):</strong>
-            </p>
-            <ul className="list-disc list-inside ml-4">
-              <li>
-                IEEE 13th Global Conference on Consumer Electronics (GCCE 2024)
-                <br />
-                Excellent Poster Awards – Outstanding Prize 受賞
-                <br />
-                採択論文: &quot;Simultaneous Speech and Eating Behavior Recognition Using Multitask Learning&quot;
-                <br />
-                詳細は&nbsp;
-                <a
-                  href="https://www.researchgate.net/publication/385688780_Simultaneous_Speech_and_Eating_Behavior_Recognition_Using_Multitask_Learning"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline"
-                >
-                  こちら
-                </a>
-                をご覧ください。
+                <strong>情報処理学会第86回全国大会 学生奨励賞</strong> (2024年3月) - “FreeVCを用いた声質変換に基づく咽喉マイク音声認識”
               </li>
               <li>
-                Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC 2024)
-                <br />
-                採択論文: &quot;SSL-based Chewing and Swallowing Detection Using Multiple Skin-contact Microphones&quot;
-                <br />
-                詳細は&nbsp;
-                <a
-                  href="https://www.researchgate.net/publication/388424419_SSL-based_Chewing_and_Swallowing_Detection_Using_Multiple_Skin-contact_Microphones"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline"
-                >
-                  こちら
-                </a>
-                をご覧ください。
+                <strong>第6回応用物理学会東海支部学術講演会 発表審査員特別賞</strong> (2018年11月) - “コイルが作る磁場の広がり方についての考察”
+              </li>
+              <li>
+                <strong>2024 IEEE 13th Global Conference on Consumer Electronics (GCCE) Excellent Poster Award – Outstanding Prize</strong>
+                <br />“Simultaneous Speech and Eating Behavior Recognition Using Multitask Learning”<br />Toshihiro Tsukagoshi, Masafumi Nishida, Masafumi Nishimura
               </li>
             </ul>
           </section>
 
-          {/* 教育活動 */}
+          {/* 教育活動・ボランティア */}
           <section>
-            <h3 className="text-2xl font-semibold mb-2">教育活動</h3>
-            <p>
-              ・静岡大学情報学部授業「創造的プログラミング」の授業資料作成
-            </p>
+            <h3 className="text-2xl font-semibold mb-2">教育活動・ボランティア</h3>
+            <ul className="list-disc list-inside ml-4 space-y-2">
+              <li>
+                静岡大学 情報学部「創造的プログラミング」<br />
+                授業資料作成・TAサポート（2024年度・2025年度）
+              </li>
+              <li>
+                静岡大学 情報学部「アカデミックリテラシー」授業 TA（2024年度）
+              </li>
+              <li>
+                静岡大学オープンキャンパス 学生トークショー出演（2024年,5月）
+              </li>
+            </ul>
           </section>
 
           {/* 共同研究・技術協力 */}
           <section>
             <h3 className="text-2xl font-semibold mb-2">共同研究・技術協力</h3>
-            <p>
-              ・医療用自動問診システムの開発および (株)シルバコンパスへの技術相談（2023年12月～2024年1月）
-            </p>
-          </section>
-
-          {/* 学内記事・取材 */}
-          <section>
-            <h3 className="text-2xl font-semibold mb-2">学内記事・取材</h3>
-            <p>
-              ・国際会議 GCCE にて、西田研究室修士1年の塚越駿大が Excellent Poster Award を受賞しました。詳細は&nbsp;
-              <a
-                href="https://www.inf.shizuoka.ac.jp/news/3514/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline"
-              >
-                こちら
-              </a>
-              をご覧ください。
-            </p>
-            <p>
-              ・情報処理学会第86回全国大会にて、西田研究室の学生3名、綱川研究室の学生1名が学生奨励賞を受賞しました。詳細は&nbsp;
-              <a
-                href="https://www.inf.shizuoka.ac.jp/news/1307/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline"
-              >
-                こちら
-              </a>
-              をご覧ください。
-            </p>
-            <p>
-              ・FM AICHI、ならびに中電シーティーアイ Welcome Generationでの取材を受けました。詳細は&nbsp;
-              <a
-                href="https://fma.co.jp/f/prg/welcomegeneration/?y=2024&m=10"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline"
-              >
-                こちら
-              </a>
-              からご確認いただけます。
-            </p>
+            <p>・医療用自動問診システムの開発、株式会社シルバコンパスへの技術相談（2023年12月～2024年1月）</p>
           </section>
 
           {/* インターンシップ */}
@@ -185,22 +89,63 @@ export default function About() {
             <h3 className="text-2xl font-semibold mb-2">インターンシップ</h3>
             <ul className="list-disc list-inside ml-4 space-y-4">
               <li>
-                <strong>学校法人角川ドワンゴ学園 N/S 高等学校 通学コース</strong>
-                <br />
-                キャンパス運営、授業サポート、コーチングの実習
-                <br />
-                <span className="text-sm text-gray-500">2023年3月 ～ 2024年7月</span>
+                <strong>学校法人角川ドワンゴ学園 N/S 高等学校 通学コース</strong><br />
+                実習内容：キャンパス運営および授業サポート、コーチング
               </li>
               <li>
-                <strong>日立製作所</strong>
-                <br />
-                インターンシップ実習
-                <br />
-                <span className="text-sm text-gray-500">2025年1月</span>
+                <strong>日本電気株式会社 (NEC)</strong><br />
+                実習内容：生成AIを活用した社内コーポレートの企画
+              </li>
+              <li>
+                <strong>日立製作所</strong><br />
+                実習内容：【研究開発】音声/音響/時系列信号AIと基盤モデルに関する研究開発
               </li>
             </ul>
           </section>
 
+          {/* Journal */}
+          <section>
+            <h3 className="text-2xl font-semibold mb-2">Journal</h3>
+            <ul className="list-disc list-inside ml-4">
+              <li>Tsukagoshi, T.; Nishida, M.; Nishimura, M. Simultaneous Speech and Eating Behavior Recognition Using Data Augmentation and Two-Stage Fine-Tuning. <em>MDPI Sensors</em>, 2 March 2025.</li>
+            </ul>
+          </section>
+
+          {/* Conference */}
+          <section>
+            <h3 className="text-2xl font-semibold mb-2">Conference</h3>
+            <ul className="list-disc list-inside ml-4 space-y-2">
+              <li> 塚越駿大, 松田将典, 朝田圭, 石鍋菜々子, 梶原芳典, 山本泰生, 西村雅史, “飲酒が発話行動に与える影響の分析と評価”, 情報処理学会第87回全国大会, 1ZB-05, March 2025.</li>
+              <li> 小祝和寛, 竹内麻衣, 塚越駿大, 松田将典, 朝田圭, 石鍋菜々子, 梶原芳典, 山本泰生, 西村雅史, “飲酒が発話行動に与える影響の分析と評価”, 情報処理学会第87回全国大会, 1T-08, March 2025.</li>
+              <li> Koiwai, K.; Tsukagoshi, T.; Nishida, M.; Nishimura, M. Improved Performance of a CA-SSL-based Daily Eating Sounds Recognition Model. 16th International Conference on Smart Computing and Artificial Intelligence (SCAI 2024-Winter), January 2025.</li>
+              <li> Tsukagoshi, T.; Koiwai, K.; Nishida, M.; Nishimura, M. SSL-based Chewing and Swallowing Detection Using Multiple Skin-Contact Microphones. In Proceedings of APSIPA ASC 2024, Macau, China, 3–6 December 2024.</li>
+              <li> Tsukagoshi, T.; Koiwai, K.; Nishida, M.; Nishimura, M. Simultaneous Speech and Eating Behavior Recognition Using Multitask Learning. In Proceedings of IEEE GCCE 2024, Kitakyushu, Japan, 29 October–1 November 2024.</li>
+              <li> 塚越駿大, 西田昌史, 西村雅史, “声質変換を用いたデータ拡張に基づく咽喉マイク音声認識”, 情報処理学会第86回全国大会, 1R-02, March 2024.</li>
+              <li> 塚越駿大, 西田昌史, 西村雅史, “FreeVCを用いた声質変換に基づく咽喉マイク音声認識”, 第21回情報学ワークショップ (WiNF2023), 2B-7, December 2023.</li>
+              <li> 近藤壮馬, 塚越駿大, “コイルが作る磁場の広がり方についての考察”, 第6回応用物理学会東海支部学術講演会, November 2018.</li>
+            </ul>
+          </section>
+
+          {/* 特許 */}
+          <section>
+            <h3 className="text-2xl font-semibold mb-2">特許</h3>
+            <ul className="list-disc list-inside ml-4">
+              <li>
+                <strong>開眼度で酔いレベルを推定する技術</strong> [出願番号: 特願2025-24149] (2025年2月18日)
+              </li>
+            </ul>
+          </section>
+
+          {/* 学内記事・取材 */}
+          <section>
+            <h3 className="text-2xl font-semibold mb-2">学内記事・取材</h3>
+            <ul className="list-disc list-inside ml-4 space-y-2">
+              <li>情報処理学会第87回全国大会 学生奨励賞受賞の記事: <a href="https://www.inf.shizuoka.ac.jp/news/3985/" target="_blank" rel="noopener noreferrer" className="underline">こちら</a></li>
+              <li>国際会議 GCCE Excellent Poster Award 受賞の記事: <a href="https://www.inf.shizuoka.ac.jp/news/3514/" target="_blank" rel="noopener noreferrer" className="underline">こちら</a></li>
+              <li>情報処理学会第86回全国大会 学生奨励賞受賞の記事: <a href="https://www.inf.shizuoka.ac.jp/news/1307/" target="_blank" rel="noopener noreferrer" className="underline">こちら</a></li>
+              <li>FM AICHI・中電シーティーアイ Welcome Generation 取材: <a href="https://fma.co.jp/f/prg/welcomegeneration/?y=2024&m=10" target="_blank" rel="noopener noreferrer" className="underline">こちら</a></li>
+            </ul>
+          </section>
 
         </div>
       </div>
