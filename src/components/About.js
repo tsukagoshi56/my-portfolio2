@@ -17,10 +17,10 @@ export default function About() {
               <strong>研究室:</strong> 西田研究室
             </p>
             <p>
-              <strong>指導教官:</strong> 西田昌史
+              <strong>指導教官:</strong> 西田昌史,西村雅史
             </p>
             <p>
-              <strong>研究内容:</strong> 日常生活における食事と会話の自動認識モデルの研究開発に取り組みました。
+              <strong>研究内容:</strong> 日常生活における食事と会話の自動認識モデルの研究開発に取り組んでいます。
             </p>
           </section>
 
@@ -34,7 +34,7 @@ export default function About() {
               <strong>研究室:</strong> 西田研究室
             </p>
             <p>
-              <strong>指導教官:</strong> 西田昌史
+              <strong>指導教官:</strong> 西田昌史,西村雅史
             </p>
             <p>
               <strong>研究内容:</strong> 雑音環境下での音声認識性能向上を目指し、皮膚接触型マイクの音響特徴を一般的なマイク特徴へ変換するモデルを構築しました。
@@ -46,6 +46,10 @@ export default function About() {
             <h3 className="text-2xl font-semibold mb-2">受賞歴</h3>
             <ul className="list-disc list-inside ml-4 space-y-2">
               <li>
+                <strong>2024 IEEE 13th Global Conference on Consumer Electronics (GCCE) Excellent Poster Award – Outstanding Prize</strong>
+                <br />“Simultaneous Speech and Eating Behavior Recognition Using Multitask Learning”<br />Toshihiro Tsukagoshi, Masafumi Nishida, Masafumi Nishimura
+              </li>
+              <li>
                 <strong>情報処理学会第87回全国大会 学生奨励賞</strong> (2025年3月) - “飲酒が発話行動に与える影響の分析と評価”
               </li>
               <li>
@@ -54,10 +58,7 @@ export default function About() {
               <li>
                 <strong>第6回応用物理学会東海支部学術講演会 発表審査員特別賞</strong> (2018年11月) - “コイルが作る磁場の広がり方についての考察”
               </li>
-              <li>
-                <strong>2024 IEEE 13th Global Conference on Consumer Electronics (GCCE) Excellent Poster Award – Outstanding Prize</strong>
-                <br />“Simultaneous Speech and Eating Behavior Recognition Using Multitask Learning”<br />Toshihiro Tsukagoshi, Masafumi Nishida, Masafumi Nishimura
-              </li>
+              
             </ul>
           </section>
 
