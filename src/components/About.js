@@ -17,10 +17,10 @@ export default function About() {
               <strong>研究室:</strong> 西田研究室
             </p>
             <p>
-              <strong>指導教官:</strong> 西田昌史,西村雅史
+              <strong>指導教官:</strong> 西田昌史, 西村雅史
             </p>
             <p>
-              <strong>研究内容:</strong> 日常生活における食事と会話の自動認識モデルの研究開発に取り組んでいます。
+              <strong>研究内容:</strong> 日常生活における食事と会話の自動認識モデルの研究開発に取り組みました。
             </p>
           </section>
 
@@ -34,7 +34,7 @@ export default function About() {
               <strong>研究室:</strong> 西田研究室
             </p>
             <p>
-              <strong>指導教官:</strong> 西田昌史,西村雅史
+              <strong>指導教官:</strong> 西田昌史, 西村雅史
             </p>
             <p>
               <strong>研究内容:</strong> 雑音環境下での音声認識性能向上を目指し、皮膚接触型マイクの音響特徴を一般的なマイク特徴へ変換するモデルを構築しました。
@@ -58,7 +58,6 @@ export default function About() {
               <li>
                 <strong>第6回応用物理学会東海支部学術講演会 発表審査員特別賞</strong> (2018年11月) - “コイルが作る磁場の広がり方についての考察”
               </li>
-              
             </ul>
           </section>
 
@@ -71,10 +70,10 @@ export default function About() {
                 授業資料作成・TAサポート（2024年度・2025年度）
               </li>
               <li>
-                静岡大学 情報学部「アカデミックリテラシー」授業 TA（2024年度）
+                静岡大学 情報学部「アカデミックリテラシー」授業 TA（2025年度）
               </li>
               <li>
-                静岡大学オープンキャンパス 学生トークショー出演（2024年,5月）
+                静岡大学オープンキャンパス 学生トークショー出演（2024年）
               </li>
             </ul>
           </section>
@@ -104,26 +103,43 @@ export default function About() {
             </ul>
           </section>
 
-          {/* Journal */}
+          {/* 論文・発表 */}
           <section>
             <h3 className="text-2xl font-semibold mb-2">Journal</h3>
             <ul className="list-disc list-inside ml-4">
-              <li>Tsukagoshi, T.; Nishida, M.; Nishimura, M. Simultaneous Speech and Eating Behavior Recognition Using Data Augmentation and Two-Stage Fine-Tuning. <em>MDPI Sensors</em>, 2 March 2025.</li>
+              <li>
+                Tsukagoshi, T.; Nishida, M.; Nishimura, M. Simultaneous Speech and Eating Behavior Recognition Using Data Augmentation and Two-Stage Fine-Tuning. <em>MDPI Sensors</em>, 2 March 2025.
+                <a href="/papers/Simultaneous Speech and Ea...d Two-Stage Fine-Tuning.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
+              </li>
             </ul>
           </section>
 
-          {/* Conference */}
           <section>
             <h3 className="text-2xl font-semibold mb-2">Conference</h3>
             <ul className="list-disc list-inside ml-4 space-y-2">
-              <li> 塚越駿大, 松田将典, 朝田圭, 石鍋菜々子, 梶原芳典, 山本泰生, 西村雅史, “飲酒が発話行動に与える影響の分析と評価”, 情報処理学会第87回全国大会, 1ZB-05, March 2025.</li>
-              <li> 小祝和寛, 竹内麻衣, 塚越駿大, 松田将典, 朝田圭, 石鍋菜々子, 梶原芳典, 山本泰生, 西村雅史, “飲酒が発話行動に与える影響の分析と評価”, 情報処理学会第87回全国大会, 1T-08, March 2025.</li>
-              <li> Koiwai, K.; Tsukagoshi, T.; Nishida, M.; Nishimura, M. Improved Performance of a CA-SSL-based Daily Eating Sounds Recognition Model. 16th International Conference on Smart Computing and Artificial Intelligence (SCAI 2024-Winter), January 2025.</li>
-              <li> Tsukagoshi, T.; Koiwai, K.; Nishida, M.; Nishimura, M. SSL-based Chewing and Swallowing Detection Using Multiple Skin-Contact Microphones. In Proceedings of APSIPA ASC 2024, Macau, China, 3–6 December 2024.</li>
-              <li> Tsukagoshi, T.; Koiwai, K.; Nishida, M.; Nishimura, M. Simultaneous Speech and Eating Behavior Recognition Using Multitask Learning. In Proceedings of IEEE GCCE 2024, Kitakyushu, Japan, 29 October–1 November 2024.</li>
-              <li> 塚越駿大, 西田昌史, 西村雅史, “声質変換を用いたデータ拡張に基づく咽喉マイク音声認識”, 情報処理学会第86回全国大会, 1R-02, March 2024.</li>
-              <li> 塚越駿大, 西田昌史, 西村雅史, “FreeVCを用いた声質変換に基づく咽喉マイク音声認識”, 第21回情報学ワークショップ (WiNF2023), 2B-7, December 2023.</li>
-              <li> 近藤壮馬, 塚越駿大, “コイルが作る磁場の広がり方についての考察”, 第6回応用物理学会東海支部学術講演会, November 2018.</li>
+              <li>
+                Tsukagoshi, T.; Koiwai, K.; Nishida, M.; Nishimura, M. Simultaneous Speech and Eating Behavior Recognition Using Multitask Learning. In Proceedings of IEEE GCCE 2024, Kitakyushu, Japan, 29 October–1 November 2024.
+                <a href="/papers/Simultaneous Speech and Ea...Using Multitask Learning.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
+              </li>
+              <li>
+                Tsukagoshi, T.; Koiwai, K.; Nishida, M.; Nishimura, M. SSL-based Chewing and Swallowing Detection Using Multiple Skin-Contact Microphones. In Proceedings of APSIPA ASC 2024, Macau, China, 3–6 December 2024.
+                <a href="/papers/SSL-based Chewing and Swa...le Skin-contact Microphones.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
+              </li>
+              <li>
+                Koiwai, K.; Tsukagoshi, T.; Nishida, M.; Nishimura, M. Improved Performance of a CA-SSL-based Daily Eating Sounds Recognition Model. 16th International Conference on Smart Computing and Artificial Intelligence (SCAI 2024-Winter), January 2025.
+                <a href="/papers/ImprovedPerformanceofaCA-...onModel_IEEEpdfeXpress.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
+              </li>
+              <li>
+                塚越駿大, 西田昌史, 西村雅史, “FreeVCを用いた声質変換に基づく咽喉マイク音声認識”, 第21回情報学ワークショップ (WiNF2023), 2B-7, December 2023.
+                <a href="/papers/FreeVCを用いた声質変換に基づく咽喉マイク音声認識.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
+              </li>
+              <li>
+                塚越駿大, 西田昌史, 西村雅史, “声質変換を用いたデータ拡張に基づく咽喉マイク音声認識”, 情報処理学会第86回全国大会, 1R-02, March 2024.
+                <a href="/papers/声質変換を用いたデータ拡張に基づく咽喉マイク音声認識.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
+              </li>
+              <li>
+                近藤壮馬, 塚越駿大, “コイルが作る磁場の広がり方についての考察”, 第6回応用物理学会東海支部学術講演会, November 2018.
+              </li>
             </ul>
           </section>
 
