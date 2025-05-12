@@ -114,32 +114,39 @@ export default function About() {
             </ul>
           </section>
 
+
           <section>
-            <h3 className="text-2xl font-semibold mb-2">Conference</h3>
-            <ul className="list-disc list-inside ml-4 space-y-2">
-              <li>
-                Tsukagoshi, T.; Koiwai, K.; Nishida, M.; Nishimura, M. Simultaneous Speech and Eating Behavior Recognition Using Multitask Learning. In Proceedings of IEEE GCCE 2024, Kitakyushu, Japan, 29 October–1 November 2024.
-                <a href="/papers/Simultaneous Speech and Ea...Using Multitask Learning.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
-              </li>
-              <li>
-                Tsukagoshi, T.; Koiwai, K.; Nishida, M.; Nishimura, M. SSL-based Chewing and Swallowing Detection Using Multiple Skin-Contact Microphones. In Proceedings of APSIPA ASC 2024, Macau, China, 3–6 December 2024.
-                <a href="/papers/SSL-based Chewing and Swa...le Skin-contact Microphones.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
-              </li>
-              <li>
-                Koiwai, K.; Tsukagoshi, T.; Nishida, M.; Nishimura, M. Improved Performance of a CA-SSL-based Daily Eating Sounds Recognition Model. 16th International Conference on Smart Computing and Artificial Intelligence (SCAI 2024-Winter), January 2025.
-                <a href="/papers/ImprovedPerformanceofaCA-...onModel_IEEEpdfeXpress.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
-              </li>
-              <li>
-                塚越駿大, 西田昌史, 西村雅史, “FreeVCを用いた声質変換に基づく咽喉マイク音声認識”, 第21回情報学ワークショップ (WiNF2023), 2B-7, December 2023.
-                <a href="/papers/FreeVCを用いた声質変換に基づく咽喉マイク音声認識.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
-              </li>
-              <li>
-                塚越駿大, 西田昌史, 西村雅史, “声質変換を用いたデータ拡張に基づく咽喉マイク音声認識”, 情報処理学会第86回全国大会, 1R-02, March 2024.
-                <a href="/papers/声質変換を用いたデータ拡張に基づく咽喉マイク音声認識.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
-              </li>
-              <li>
-                近藤壮馬, 塚越駿大, “コイルが作る磁場の広がり方についての考察”, 第6回応用物理学会東海支部学術講演会, November 2018.
-              </li>
+            <h3 className="text-2xl font-semibold mb-2">Journal</h3>
+              <ul className="list-disc list-inside ml-4">
+                <li>
+                  塚越駿大, 松田将典, 朝田圭, 石鍋菜々子, 梶原芳典, 山本泰生, 西村雅史, “飲酒が発話行動に与える影響の分析と評価”, 情報処理学会第87回全国大会, 1ZB-05, 2025年3月.
+                </li>
+                <li>
+                  小祝和寛, 竹内麻衣, 塚越駿大, 松田将典, 朝田圭, 石鍋菜々子, 梶原芳典, 山本泰生, 西村雅史, “飲酒が発話行動に与える影響の分析と評価”, 情報処理学会第87回全国大会, 1T-08, 2025年3月.
+                </li>
+                <li>
+                  Tsukagoshi, T.; Koiwai, K.; Nishida, M.; Nishimura, M. Simultaneous Speech and Eating Behavior Recognition Using Multitask Learning. In Proceedings of IEEE GCCE 2024, 北九州, 日本, 2024年10月29日～11月1日.
+                  <a href="/papers/Simultaneous Speech and Ea...Using Multitask Learning.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
+                </li>
+                <li>
+                  Tsukagoshi, T.; Koiwai, K.; Nishida, M.; Nishimura, M. SSL-based Chewing and Swallowing Detection Using Multiple Skin-Contact Microphones. In Proceedings of APSIPA ASC 2024, マカオ, 中国, 2024年12月3日～6日.
+                  <a href="/papers/SSL-based Chewing and Swa...le Skin-contact Microphones.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
+                </li>
+                <li>
+                  Koiwai, K.; Tsukagoshi, T.; Nishida, M.; Nishimura, M. Improved Performance of a CA-SSL-based Daily Eating Sounds Recognition Model. 16th International Conference on Smart Computing and Artificial Intelligence (SCAI 2024-Winter), 2025年1月.
+                  <a href="/papers/ImprovedPerformanceofaCA-...onModel_IEEEpdfeXpress.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
+                </li>
+                <li>
+                  塚越駿大, 西田昌史, 西村雅史, “FreeVCを用いた声質変換に基づく咽喉マイク音声認識”, 第21回情報学ワークショップ (WiNF2023), 2B-7, 2023年12月.
+                  <a href="./../../public/papers/FreeVCを用いた声質変換に基づく咽喉マイク音声認識.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
+                </li>
+                <li>
+                  塚越駿大, 西田昌史, 西村雅史, “声質変換を用いたデータ拡張に基づく咽喉マイク音声認識”, 情報処理学会第86回全国大会, 1R-02, 2024年3月.
+                  <a href="/papers/声質変換を用いたデータ拡張に基づく咽喉マイク音声認識.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
+                </li>
+                <li>
+                  近藤壮馬, 塚越駿大, “コイルが作る磁場の広がり方についての考察”, 第6回応用物理学会東海支部学術講演会, November 2018.
+                </li>
             </ul>
           </section>
 
