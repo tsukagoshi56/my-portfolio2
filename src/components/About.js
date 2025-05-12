@@ -111,25 +111,25 @@ export default function About() {
             <ul className="list-disc list-inside ml-4 space-y-4">
               <li>
                 Tsukagoshi, T.; Nishida, M.; Nishimura, M.<br />
-                "Simultaneous Speech and Eating Behavior Recognition Using Data Augmentation and Two-Stage Fine-Tuning,"<br />
+                Simultaneous Speech and Eating Behavior Recognition Using Data Augmentation and Two-Stage Fine-Tuning,<br />
                 <em>MDPI Sensors</em>, March 2, 2025.
                 <a href="/papers/Simultaneous Speech and Eating Behavior Recognition Using Data Augmentation and Two-Stage Fine-Tuning.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
               </li>
               <li>
                 Tsukagoshi, T.; Koiwai, K.; Nishida, M.; Nishimura, M.<br />
-                "Simultaneous Speech and Eating Behavior Recognition Using Multitask Learning,"<br />
+                Simultaneous Speech and Eating Behavior Recognition Using Multitask Learning,<br />
                 in <em>Proc. IEEE GCCE 2024</em>, Kitakyushu, Japan, Oct. 29 – Nov. 1, 2024.
                 <a href="/papers/Simultaneous Speech and Eating Behavior Recognition Using Multitask Learning.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
               </li>
               <li>
                 Tsukagoshi, T.; Koiwai, K.; Nishida, M.; Nishimura, M.<br />
-                "SSL-based Chewing and Swallowing Detection Using Multiple Skin-Contact Microphones,"<br />
+                SSL-based Chewing and Swallowing Detection Using Multiple Skin-Contact Microphones,<br />
                 in <em>APSIPA ASC 2024</em>, Macau, China, Dec. 3–6, 2024.
                 <a href="/papers/SSL-based Chewing and Swallowing Detection Using Multiple Skin-contact Microphones.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
               </li>
               <li>
                 Koiwai, K.; Tsukagoshi, T.; Nishida, M.; Nishimura, M.<br />
-                "Improved Performance of a CA-SSL-based Daily Eating Sounds Recognition Model,"<br />
+                Improved Performance of a CA-SSL-based Daily Eating Sounds Recognition Model,<br />
                 in <em>SCAI 2024-Winter</em>, Jan. 2025.
                 <a href="/papers/ImprovedPerformanceofaCA-SSL-basedDailyEatingSoundsRecognitionModel_IEEEpdfeXpress.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
               </li>
@@ -142,30 +142,30 @@ export default function About() {
             <ul className="list-disc list-inside ml-4 space-y-4">
               <li>
                 塚越駿大, 松田将典, 朝田圭, 石鍋菜々子, 梶原芳典, 山本泰生, 西村雅史，<br />
-                「Media Pipeを用いた開眼度分析による酔いの評価」，<br />
+                Media Pipeを用いた開眼度分析による酔いの評価，<br />
                 情報処理学会第87回全国大会，1ZB-05，2025年3月.
                 <a href="/papers/Media Pipeを用いた開眼度分析による酔いの評価.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
               </li>
               <li>
                 小祝和寛, 竹内麻衣, 塚越駿大, 松田将典, 朝田圭, 石鍋菜々子, 梶原芳典, 山本泰生, 西村雅史，<br />
-                「飲酒が発話行動に与える影響の分析と評価」，<br />
+                飲酒が発話行動に与える影響の分析と評価，<br />
                 情報処理学会第87回全国大会，1T-08，2025年3月.
               </li>
               <li>
                 塚越駿大, 西田昌史, 西村雅史，<br />
-                「FreeVCを用いた声質変換に基づく咽喉マイク音声認識」，<br />
+                FreeVCを用いた声質変換に基づく咽喉マイク音声認識，<br />
                 第21回情報学ワークショップ (WiNF2023)，2B-7，2023年12月.
                 <a href="/papers/FreeVCを用いた声質変換に基づく咽喉マイク音声認識.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
               </li>
               <li>
                 塚越駿大, 西田昌史, 西村雅史，<br />
-                「声質変換を用いたデータ拡張に基づく咽喉マイク音声認識」，<br />
+                声質変換を用いたデータ拡張に基づく咽喉マイク音声認識，<br />
                 情報処理学会第86回全国大会，1R-02，2024年3月.
                 <a href="/papers/声質変換を用いたデータ拡張に基づく咽喉マイク音声認識.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
               </li>
               <li>
                 近藤壮馬, 塚越駿大，<br />
-                「コイルが作る磁場の広がり方についての考察」，<br />
+                コイルが作る磁場の広がり方についての考察，<br />
                 第6回応用物理学会東海支部学術講演会，2018年11月.
               </li>
             </ul>
