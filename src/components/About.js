@@ -138,7 +138,7 @@ export default function About() {
                 </li>
                 <li>
                   塚越駿大, 西田昌史, 西村雅史, “FreeVCを用いた声質変換に基づく咽喉マイク音声認識”, 第21回情報学ワークショップ (WiNF2023), 2B-7, 2023年12月.
-                  <a href="./public/papers/FreeVCを用いた声質変換に基づく咽喉マイク音声認識.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
+                  <a href="./../../public/papers/FreeVCを用いた声質変換に基づく咽喉マイク音声認識.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
                 </li>
                 <li>
                   塚越駿大, 西田昌史, 西村雅史, “声質変換を用いたデータ拡張に基づく咽喉マイク音声認識”, 情報処理学会第86回全国大会, 1R-02, 2024年3月.
