@@ -109,7 +109,7 @@ export default function About() {
             <ul className="list-disc list-inside ml-4">
               <li>
                 Tsukagoshi, T.; Nishida, M.; Nishimura, M. Simultaneous Speech and Eating Behavior Recognition Using Data Augmentation and Two-Stage Fine-Tuning. <em>MDPI Sensors</em>, 2 March 2025.
-                <a href="/papers/Simultaneous Speech and Ea...d Two-Stage Fine-Tuning.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
+                <a href="/papers/Simultaneous Speech and Eating Behavior Recognition Using Data Augmentation and Two-Stage Fine-Tuning.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
               </li>
             </ul>
           </section>
@@ -119,22 +119,24 @@ export default function About() {
             <h3 className="text-2xl font-semibold mb-2">Journal</h3>
               <ul className="list-disc list-inside ml-4">
                 <li>
-                  塚越駿大, 松田将典, 朝田圭, 石鍋菜々子, 梶原芳典, 山本泰生, 西村雅史, “飲酒が発話行動に与える影響の分析と評価”, 情報処理学会第87回全国大会, 1ZB-05, 2025年3月.
+                  塚越駿大, 松田将典, 朝田圭, 石鍋菜々子, 梶原芳典, 山本泰生, 西村雅史, “Media Pipeを用いた開眼度分析による酔いの評価”, 情報処理学会第87回全国大会, 1ZB-05, 2025年3月.
+                  <a href="/papers/Media Pipeを用いた開眼度分析による酔いの評価.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
+            
                 </li>
                 <li>
                   小祝和寛, 竹内麻衣, 塚越駿大, 松田将典, 朝田圭, 石鍋菜々子, 梶原芳典, 山本泰生, 西村雅史, “飲酒が発話行動に与える影響の分析と評価”, 情報処理学会第87回全国大会, 1T-08, 2025年3月.
                 </li>
                 <li>
                   Tsukagoshi, T.; Koiwai, K.; Nishida, M.; Nishimura, M. Simultaneous Speech and Eating Behavior Recognition Using Multitask Learning. In Proceedings of IEEE GCCE 2024, 北九州, 日本, 2024年10月29日～11月1日.
-                  <a href="/papers/Simultaneous Speech and Ea...Using Multitask Learning.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
+                  <a href="/papers/Simultaneous Speech and Eating Behavior Recognition Using Multitask Learning.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
                 </li>
                 <li>
                   Tsukagoshi, T.; Koiwai, K.; Nishida, M.; Nishimura, M. SSL-based Chewing and Swallowing Detection Using Multiple Skin-Contact Microphones. In Proceedings of APSIPA ASC 2024, マカオ, 中国, 2024年12月3日～6日.
-                  <a href="/papers/SSL-based Chewing and Swa...le Skin-contact Microphones.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
+                  <a href="/papers/SSL-based Chewing and Swallowing Detection Using Multiple Skin-contact Microphones.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
                 </li>
                 <li>
                   Koiwai, K.; Tsukagoshi, T.; Nishida, M.; Nishimura, M. Improved Performance of a CA-SSL-based Daily Eating Sounds Recognition Model. 16th International Conference on Smart Computing and Artificial Intelligence (SCAI 2024-Winter), 2025年1月.
-                  <a href="/papers/ImprovedPerformanceofaCA-...onModel_IEEEpdfeXpress.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
+                  <a href="/papers/ImprovedPerformanceofaCA-SSL-basedDailyEatingSoundsRecognitionModel_IEEEpdfeXpress.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
                 </li>
                 <li>
                   塚越駿大, 西田昌史, 西村雅史, “FreeVCを用いた声質変換に基づく咽喉マイク音声認識”, 第21回情報学ワークショップ (WiNF2023), 2B-7, 2023年12月.
