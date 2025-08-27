@@ -1,3 +1,12 @@
+
+/*
+git add src/components/About.js
+git commit -m "Update About component with awards, publications, and teaching activities"
+git push origin main
+*/
+
+
+
 import React from 'react';
 
 export default function About() {
@@ -109,6 +118,12 @@ export default function About() {
           <section>
             <h3 className="text-2xl font-semibold mb-2">Journal / Conference Papers (English)</h3>
             <ul className="list-disc list-inside ml-4 space-y-4">
+              <li>
+                Tsukagoshi, T.; Nishida, M.; Nishimura, M.<br />
+                Swallowing Sound Segmentation Using Self-Supervised Learning-Based Features,<br />
+                in <em>Proc. IEEE GCCE 2025</em>, Osaka, Japan, Oct. 23 – 26, 2025.
+                <a href="/papers/Simultaneous Speech and Eating Behavior Recognition Using Multitask Learning.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
+              </li>
               <li>
                 Tsukagoshi, T.; Nishida, M.; Nishimura, M.<br />
                 Simultaneous Speech and Eating Behavior Recognition Using Data Augmentation and Two-Stage Fine-Tuning,<br />
