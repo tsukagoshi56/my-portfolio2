@@ -54,12 +54,16 @@ export default function About() {
           <section>
             <h3 className="text-2xl font-semibold mb-2">受賞歴</h3>
             <ul className="list-disc list-inside ml-4 space-y-2">
+
               <li>
-                <strong>2024 IEEE 13th Global Conference on Consumer Electronics (GCCE) Excellent Poster Award – Outstanding Prize</strong>
-                <br />“Simultaneous Speech and Eating Behavior Recognition Using Multitask Learning”<br />Toshihiro Tsukagoshi, Masafumi Nishida, Masafumi Nishimura
+                <strong>情第29回東海地区音声関連研究室修士中間発表会 総合7位（73件中）</strong> (2025年8月) - “データ拡張と2段階ファインチューニングを用いた発話および食行動の同時認識”
               </li>
               <li>
                 <strong>情報処理学会第87回全国大会 学生奨励賞</strong> (2025年3月) - “飲酒が発話行動に与える影響の分析と評価”
+              </li>
+              <li>
+                <strong>2024 IEEE 13th Global Conference on Consumer Electronics (GCCE) Excellent Poster Award – Outstanding Prize</strong>
+                <br />“Simultaneous Speech and Eating Behavior Recognition Using Multitask Learning”<br />Toshihiro Tsukagoshi, Masafumi Nishida, Masafumi Nishimura
               </li>
               <li>
                 <strong>情報処理学会第86回全国大会 学生奨励賞</strong> (2024年3月) - “FreeVCを用いた声質変換に基づく咽喉マイク音声認識”
