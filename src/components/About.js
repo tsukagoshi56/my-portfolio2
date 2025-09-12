@@ -122,7 +122,6 @@ export default function About() {
                 Tsukagoshi, T.; Nishida, M.; Nishimura, M.<br />
                 Swallowing Sound Segmentation Using Self-Supervised Learning-Based Features,<br />
                 in <em>Proc. IEEE GCCE 2025</em>, Osaka, Japan, Oct. 23 – 26, 2025.
-                <a href="/papers/Simultaneous Speech and Eating Behavior Recognition Using Multitask Learning.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
               </li>
               <li>
                 Tsukagoshi, T.; Nishida, M.; Nishimura, M.<br />
@@ -155,6 +154,11 @@ export default function About() {
           <section>
             <h3 className="text-2xl font-semibold mb-2">国内学会・研究会（日本語）</h3>
             <ul className="list-disc list-inside ml-4 space-y-4">
+              <li>
+                塚越駿大, 西田昌史, 西村雅史，<br />
+                会話を伴う日常食事環境における咀嚼音・嚥下音の自動認識，<br />
+                第24回情報科学技術フォーラム (FIT2025)，J-010,2025年9月.
+              </li>
               <li>
                 塚越駿大, 西田昌史, 西村雅史，<br />
                 データ拡張と2段階ファインチューニングを用いた発話および食行動の同時認識，<br />
