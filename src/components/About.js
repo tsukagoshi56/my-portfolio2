@@ -156,6 +156,11 @@ export default function About() {
             <h3 className="text-2xl font-semibold mb-2">国内学会・研究会（日本語）</h3>
             <ul className="list-disc list-inside ml-4 space-y-4">
               <li>
+                塚越駿大, 西田昌史, 西村雅史，<br />
+                データ拡張と2段階ファインチューニングを用いた発話および食行動の同時認識，<br />
+                第29回東海地区音声関連研究室修士中間発表会，2025年8月.
+              </li>
+              <li>
                 塚越駿大, 松田将典, 朝田圭, 石鍋菜々子, 梶原芳典, 山本泰生, 西村雅史，<br />
                 Media Pipeを用いた開眼度分析による酔いの評価，<br />
                 情報処理学会第87回全国大会，1ZB-05，2025年3月.
