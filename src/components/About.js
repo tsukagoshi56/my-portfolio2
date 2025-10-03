@@ -56,6 +56,12 @@ export default function About() {
             <ul className="list-disc list-inside ml-4 space-y-2">
 
               <li>
+                <strong>IEEE 14th Global Conference on Consumer Electronics (GCCE) Outstanding Prize Excellent Paper Award</strong>
+                (2025年9月) - “Swallowing Sound Segmentation Using Self-Supervised Learning-Based Features”<br />
+                Toshihiro Tsukagoshi, Masafumi Nishida, Masafumi Nishimura
+              </li>
+
+              <li>
                 <strong>情第29回東海地区音声関連研究室修士中間発表会 総合7位（73件中）</strong> (2025年8月) - “データ拡張と2段階ファインチューニングを用いた発話および食行動の同時認識”
               </li>
               <li>
@@ -125,7 +131,9 @@ export default function About() {
               <li>
                 Tsukagoshi, T.; Nishida, M.; Nishimura, M.<br />
                 Swallowing Sound Segmentation Using Self-Supervised Learning-Based Features,<br />
-                in <em>Proc. IEEE GCCE 2025</em>, Osaka, Japan, Oct. 23 – 26, 2025.
+                in <em>Proceedings of IEEE 14th Global Conference on Consumer Electronics (GCCE)</em>,<br />
+                pp. 770-772, Osaka, Japan, Sep. 2025.<br />
+                <strong>Outstanding Prize Excellent Paper Award</strong>
               </li>
               <li>
                 Tsukagoshi, T.; Nishida, M.; Nishimura, M.<br />
