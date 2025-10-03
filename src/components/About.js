@@ -56,7 +56,7 @@ export default function About() {
             <ul className="list-disc list-inside ml-4 space-y-2">
 
               <li>
-                <strong>IEEE 14th Global Conference on Consumer Electronics (GCCE) Outstanding Prize Excellent Paper Award</strong>
+                <strong>IEEE 14th Global Conference on Consumer Electronics (GCCE) Excellent Paper Award - Outstanding Prize </strong>
                 (2025年9月) - “Swallowing Sound Segmentation Using Self-Supervised Learning-Based Features”<br />
                 Toshihiro Tsukagoshi, Masafumi Nishida, Masafumi Nishimura
               </li>
@@ -65,7 +65,7 @@ export default function About() {
                 <strong>情第29回東海地区音声関連研究室修士中間発表会 総合7位（73件中）</strong> (2025年8月) - “データ拡張と2段階ファインチューニングを用いた発話および食行動の同時認識”
               </li>
               <li>
-                <strong>情報処理学会第87回全国大会 学生奨励賞</strong> (2025年3月) - “飲酒が発話行動に与える影響の分析と評価”
+                <strong>情報処理学会第87回全国大会 学生奨励賞</strong> (2025年3月) - “Media Pipeを用いた開眼度分析による酔いの評価”
               </li>
               <li>
                 <strong>2024 IEEE 13th Global Conference on Consumer Electronics (GCCE) Excellent Poster Award – Outstanding Prize</strong>
@@ -132,8 +132,10 @@ export default function About() {
                 Tsukagoshi, T.; Nishida, M.; Nishimura, M.<br />
                 Swallowing Sound Segmentation Using Self-Supervised Learning-Based Features,<br />
                 in <em>Proceedings of IEEE 14th Global Conference on Consumer Electronics (GCCE)</em>,<br />
-                pp. 770-772, Osaka, Japan, Sep. 2025.<br />
-                <strong>Outstanding Prize Excellent Paper Award</strong>
+                pp. 770-772, Osaka, Japan, Sep. 2025.
+                <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
+                  受賞: IEEE 14th Global Conference on Consumer Electronics (GCCE) Outstanding Prize Excellent Paper Award
+                </p>
               </li>
               <li>
                 Tsukagoshi, T.; Nishida, M.; Nishimura, M.<br />
@@ -146,6 +148,9 @@ export default function About() {
                 Simultaneous Speech and Eating Behavior Recognition Using Multitask Learning,<br />
                 in <em>Proc. IEEE GCCE 2024</em>, Kitakyushu, Japan, Oct. 29 – Nov. 1, 2024.
                 <a href="/papers/Simultaneous Speech and Eating Behavior Recognition Using Multitask Learning.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
+                <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
+                  受賞: 2024 IEEE 13th Global Conference on Consumer Electronics (GCCE) Excellent Poster Award – Outstanding Prize
+                </p>
               </li>
               <li>
                 Tsukagoshi, T.; Koiwai, K.; Nishida, M.; Nishimura, M.<br />
@@ -175,17 +180,24 @@ export default function About() {
                 塚越駿大, 西田昌史, 西村雅史，<br />
                 データ拡張と2段階ファインチューニングを用いた発話および食行動の同時認識，<br />
                 第29回東海地区音声関連研究室修士中間発表会，2025年8月.
+                <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
+                  受賞: 情第29回東海地区音声関連研究室修士中間発表会 総合7位（73件中）
+                </p>
               </li>
               <li>
                 塚越駿大, 松田将典, 朝田圭, 石鍋菜々子, 梶原芳典, 山本泰生, 西村雅史，<br />
                 Media Pipeを用いた開眼度分析による酔いの評価，<br />
                 情報処理学会第87回全国大会，1ZB-05，2025年3月.
                 <a href="/papers/Media Pipeを用いた開眼度分析による酔いの評価.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
+                <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
+                  受賞: 情報処理学会第87回全国大会 学生奨励賞
+                </p>
               </li>
               <li>
                 小祝和寛, 竹内麻衣, 塚越駿大, 松田将典, 朝田圭, 石鍋菜々子, 梶原芳典, 山本泰生, 西村雅史，<br />
                 飲酒が発話行動に与える影響の分析と評価，<br />
                 情報処理学会第87回全国大会，1T-08，2025年3月.
+
               </li>
               <li>
                 塚越駿大, 西田昌史, 西村雅史，<br />
@@ -198,11 +210,17 @@ export default function About() {
                 声質変換を用いたデータ拡張に基づく咽喉マイク音声認識，<br />
                 情報処理学会第86回全国大会，1R-02，2024年3月.
                 <a href="/papers/声質変換を用いたデータ拡張に基づく咽喉マイク音声認識.pdf" target="_blank" rel="noopener noreferrer" className="underline ml-2">[PDF]</a>
+                <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
+                  受賞: 情報処理学会第86回全国大会 学生奨励賞
+                </p>
               </li>
               <li>
                 近藤壮馬, 塚越駿大，<br />
                 コイルが作る磁場の広がり方についての考察，<br />
                 第6回応用物理学会東海支部学術講演会，2018年11月.
+                <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
+                  受賞: 第6回応用物理学会東海支部学術講演会 発表審査員特別賞
+                </p>
               </li>
             </ul>
           </section>
@@ -221,6 +239,7 @@ export default function About() {
           <section>
             <h3 className="text-2xl font-semibold mb-2">学内記事・取材</h3>
             <ul className="list-disc list-inside ml-4 space-y-2">
+              <li>GCCE Outstanding Prize Excellent Paper Award 受賞の記事: <a href="https://www.inf.shizuoka.ac.jp/news/4625/" target="_blank" rel="noopener noreferrer" className="underline">こちら</a></li>
               <li>情報処理学会第87回全国大会 学生奨励賞受賞の記事: <a href="https://www.inf.shizuoka.ac.jp/news/3985/" target="_blank" rel="noopener noreferrer" className="underline">こちら</a></li>
               <li>国際会議 GCCE Excellent Poster Award 受賞の記事: <a href="https://www.inf.shizuoka.ac.jp/news/3514/" target="_blank" rel="noopener noreferrer" className="underline">こちら</a></li>
               <li>情報処理学会第86回全国大会 学生奨励賞受賞の記事: <a href="https://www.inf.shizuoka.ac.jp/news/1307/" target="_blank" rel="noopener noreferrer" className="underline">こちら</a></li>
